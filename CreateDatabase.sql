@@ -1,0 +1,10 @@
+CREATE DATABASE DuLieu;
+GO
+USE DuLieu;
+GO
+
+CREATE TABLE SanPham(
+	MaSanPham NVARCHAR(10) PRIMARY KEY,
+	TenSanPham ntext NOT NULL,
+	GiaBan NVARCHAR(12) NOT NULL,
+);
